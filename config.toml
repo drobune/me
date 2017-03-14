@@ -53,7 +53,7 @@ paginate = 10
 
 	[params.portfolio]
 		hide  = false
-		title = "Recent Work"
+		title = "Recent Track"
 
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
@@ -62,6 +62,22 @@ paginate = 10
 			thumb = "thumbs/meltdown.jpg"
 			title = "Meltdown"
 			description = "Hitech dark psytrance track"
+                        linkUrl = "https://soundcloud.com/maze_sound_kyoto/meltdown"
+		[[params.portfolio.gallery]]
+			thumb = "thumbs/nagorikot.png"
+			title = "Nagorikot Heaven"
+			description = "Funkey kota track"
+                        linkUrl = "https://soundcloud.com/maze_sound_kyoto/nagorikot-heaven"
+		[[params.portfolio.gallery]]
+			thumb = "thumbs/soundster.png"
+			title = "Sound Ster"
+			description = "Funkey kota track"
+                        linkUrl = "https://soundcloud.com/maze_sound_kyoto/sound-ster-dromaro-funkot-line-001"
+		[[params.portfolio.gallery]]
+			thumb = "thumbs/slipknot.jpg"
+			title = "vs Slipknot"
+			description = "Psytrance track"
+                        linkUrl = "https://soundcloud.com/maze_sound_kyoto/dromaro-vs-slipknot"
 
 
 	[params.recentposts]

@@ -48,7 +48,7 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "A real human be-ing who likes live free"
-		content = "I'm a programmer, DTMer, surfer, and father in Kyoto. <br>Would you like to hangout with me?<br>Don't hesitate to contact with me, Yo."
+		content = "I'm a programmer, DTMer, surfer, and father, living in Kyoto.<br>Would you like to hangout with me?<br>Don't hesitate to contact with me, yo(^^)"
 
 
 	[params.portfolio]

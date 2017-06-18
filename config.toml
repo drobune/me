@@ -1,6 +1,6 @@
 baseurl = "http://192.168.11.15/"
 languageCode = "en-us"
-title = "About drobune"
+title = "Beatnik Soft"
 theme = "hugo-strata-theme"
 disqusShortname = "drobune"
 # Enable Google Analytics by inserting your tracking code
@@ -12,7 +12,7 @@ paginate = 10
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "drobune"
-	description = "About me"
+	description = "LIVE FREE. Programmer,DTMer,Surfer,Father."
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
@@ -47,7 +47,7 @@ paginate = 10
 
 	[params.about]
 		hide  = false
-		title = "I'll set you free from annoying things by hack"
+		title = "I'll set you free from annoying things by hack "
 		content = "I'm a programmer, DTMer, surfer, and father, living in Kyoto.<br>Would you like to hangout with me?<br>Don't hesitate to contact with me, yo(^^)"
 
 
@@ -81,9 +81,12 @@ paginate = 10
 
 
 	[params.recentposts]
-		hide  = true
+		hide  = false
 		title = "Recent blog posts"
 
+		[[params.resentposts.gallery]]
+			title = "blog"
+                        linkUrl = "http://blog.drobune.nl/"
 	[params.contact]
 		hide  = false
 		title = "Get In Touch"
@@ -107,7 +110,7 @@ paginate = 10
 	    # - send a dummy email yourself to confirm your account
 	    # - click the confirm link in the email from www.formspree.io
 	    # - you're done. Happy mailing!
-		email = "s.yuichi227@gmail.com"
+		email = "yuichi.sano@drobune.nl"
 
 		[params.contact.form]
 			# Set custom strings for the form if your native
@@ -126,7 +129,7 @@ paginate = 10
 
 [[menu.main]]
 	name = "Blog"
-	url  = "post/"
+	url  = "http://blog.drobune.nl/"
 	weight = 10
 
 discourse = "http://drobune.nl/"

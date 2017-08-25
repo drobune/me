@@ -83,12 +83,8 @@ paginate = 10
 	[params.recentposts]
 		hide  = false
 		title = "Recent blog posts"
-
-		[[params.resentposts.gallery]]
-			title = "blog"
-                        linkUrl = "http://blog.drobune.nl/"
 	[params.contact]
-		hide  = false
+		hide  = true
 		title = "Get In Touch"
 		#content = "Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor."
 
@@ -133,4 +129,4 @@ paginate = 10
 	weight = 10
 
 discourse = "http://drobune.nl/"
-disqus = "drobund"
+disqus = "drobune"

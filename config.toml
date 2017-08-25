@@ -1,3 +1,5 @@
+publishDir = "docs"
+
 baseurl = "http://192.168.11.15/"
 languageCode = "en-us"
 title = "Beatnik Soft"
@@ -130,3 +132,4 @@ paginate = 10
 
 discourse = "http://drobune.nl/"
 disqus = "drobune"
+

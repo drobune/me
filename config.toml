@@ -1,6 +1,6 @@
 publishDir = "docs"
 
-baseurl = "https://drobune.nl"
+baseurl = "https://drobune.nl/"
 languageCode = "en-us"
 title = "Beatnik Soft"
 theme = "hugo-strata-theme"
